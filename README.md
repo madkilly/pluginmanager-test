@@ -12,9 +12,9 @@
 
 ## 使用说明
 
-- 插件制作请参见testplugin的大体结构
+- 插件制作请参见**testplugin**的大体结构
 
-- 插件类要实现PluginExtensionItf接口
+- 插件类要实现**PluginExtensionItf**接口
 
 	public boolean run(ExtensionContext context)方法实现插件运行逻辑
 	public int order()获得插件执行顺序 数字越大越先执行
@@ -22,4 +22,4 @@
 	
 	
 - src\main\resources\META-INF\services\com.yonyou.cloud.itf.PluginExtensionItf
-文件的内容为实现PluginExtensionItf接口的类名
+文件的内容为实现**PluginExtensionItf**接口的类名
