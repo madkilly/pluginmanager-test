@@ -6,27 +6,12 @@
 		<artifactId>pluginmanager-test</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>use-example</artifactId>
+	<artifactId>testplugin2</artifactId>
 	<dependencies>
 		<dependency>
 			<groupId>com.yonyou.cloud</groupId>
-			<artifactId>plugin-manager-addons</artifactId>
+			<artifactId>plugin-manager-dependency</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.yonyou.cloud</groupId>
-			<artifactId>testplugin</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.yonyou.cloud</groupId>
-			<artifactId>testplugin2</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>1.2.3</version>
 		</dependency>
 	</dependencies>
 </project>

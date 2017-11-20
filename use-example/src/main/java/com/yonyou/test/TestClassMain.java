@@ -9,6 +9,7 @@ public class TestClassMain {
 		//装配插件上下文
 		ExtensionContext context = new ExtensionContext();
 		context.ContextMap.put("myint", new Integer(10));
+		context.ContextMap.put("mystr", "testplugin2");
 		
 		System.out.println("star");
 		System.out.println("logic");
